@@ -1,0 +1,46 @@
+    body{
+        background-color:#0E111C;
+        color: white;
+        font-family: Heebo, sans-serif !important;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-card {
+        background-color: #262936;
+        padding: 20px;
+        border-radius: 5%;
+        box-shadow: 3px 3px 3px 3px #13192c;
+        text-align: center;
+    }
+
+    .main-card:hover {
+        background-color: #202431;
+        box-shadow: 5px 5px 5px 5px #13192c;
+    }
+
+    .shib-image {
+        transition: transform .5s linear;
+    }
+    .shib-image:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+
+    }
+
+    .sec-card {
+        background-color: #262936;
+        /* position: relative; */
+        padding: 20px;
+        border-radius: 5%;
+        box-shadow: 3px 3px 3px 3px #13192c;
+        margin: 10px;
+        line-height: 2em;
+    }
+
+    a {
+        color: #FFA409
+    }
+    
